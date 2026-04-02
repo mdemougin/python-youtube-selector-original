@@ -1,0 +1,26 @@
+# Secrets / credentials / tokens
+token.pickle
+token.json
+*.pickle
+*.p12
+*.pem
+*.key
+
+# Google OAuth client secrets / credentials exports
+client_secrets.json
+client_secret*.json
+credentials*.json
+oauth*.json
+
+# Environment files
+.env
+.env.*
+
+# Python / test artifacts (should not be in the repo)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
